@@ -54,10 +54,10 @@ data = {
   "weather":{"value":wea,"color":get_random_color()},
   # 温度
   "temperature":{"value":temperature,"color":get_random_color()},
-  # 高温
-  "highest": {"value":highest,"color":get_random_color()},
   # 低温
-  "lowest":{"value":lowest, "color":get_random_color()},
+  "lowest":{"value":lowest},
+  # 高温
+  "highest":{"value":highest},
   "love_days":{"value":get_count(),"color":get_random_color()},
   # 生日
   "birthday1":{"value":get_birthday(birthday1),"color":get_random_color()},
