@@ -2,7 +2,7 @@ name: morning
 on:
   schedule:
   # UTC时间+8h=北京时间
-  - cron:  '40 0 * * *'
+  - cron:  '20 23 * * *'
   workflow_dispatch:
 
 jobs:
